@@ -4,7 +4,7 @@
 		<hr/>
 		<% if @eyre.items.any? %>
 		<table border="1px" cellpadding="10px">
-			<tr>
+			<tr style="background-color: #a4cee3">
 				<th>Processo</th>
 				<th>Classe</th>
 				<th>Situação</th>
@@ -18,18 +18,18 @@
 				<td><%= item.group %></td>
 				<td><%= item.status %></td>
 				<td><%= item.last.strftime("%d %m %Y") %></td>
-				<th><% if item.status == "PARALIZADO" %>
+				<th><% if item.status == "PARALISADO" %>
 				<%= (Date.parse(Time.now.to_s) - Date.parse(item.last.to_s)).to_i %></td>
 				<%end%></th>
-				<td><%= link_to 'Ver', [@eyre, item] %></td>
-				<td><%= link_to 'Editar', edit_eyre_item_path(@eyre, item) %></td>
+				<td><%= link_to 'Ver', [@eyre, item], :class => 'btn btn-info' %></td>
+				<td><%= link_to 'Editar', edit_eyre_item_path(@eyre, item), :class => 'btn' %></td>
 				<td><%= link_to 'Remover', [@eyre, item], :confirm => 'Tem certeza?',
-				:method => :delete %></td>
+				:method => :delete, :class => 'btn btn-danger' %></td>
 			</tr>
 			<% end %>
 		</table>
 		<% end %>
 		<br/>
-		<%= link_to 'Inserir +', new_eyre_item_path(@eyre) %>
+		<%= link_to 'Inserir +', new_eyre_item_path(@eyre), :class => 'btn btn-primary' %>
 	</div>
 </div>

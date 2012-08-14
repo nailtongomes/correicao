@@ -19,7 +19,7 @@ class ItemsController < ApplicationController
     @item = @eyre.items.find(params[:id])    
     if @item.update_attributes(params[:item])
       flash[:success] = "Processo atualizado."
-      redirect_to eyre_items_path(@eyre)
+      redirect_to eyre_path(@eyre)
     else
       flash[:error] = "Erro!"
       render "edit"
@@ -39,7 +39,7 @@ class ItemsController < ApplicationController
   def destroy
     @item = @eyre.items.find(params[:id]).destroy
     flash[:success] = "Processo removido..."
-    redirect_to eyre_items_path(@eyre)
+    redirect_to eyre_path(@eyre)
   end
   
   private

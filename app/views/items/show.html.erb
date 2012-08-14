@@ -23,9 +23,9 @@
 				<th>
 				<%= (Date.parse(Time.now.to_s) - Date.parse(@item.last.to_s)).to_i %></td>
 				</th><%end%>
-				<td><%= link_to 'Editar', edit_eyre_item_path(@eyre, @item) %></td>
+				<td><%= link_to 'Editar', edit_eyre_item_path(@eyre, @item), :class => 'btn' %></td>
 				<td><%= link_to 'Remover', [@eyre, @item], :confirm => 'Tem certeza?',
-				:method => :delete %></td>
+				:method => :delete, :class => 'btn btn-danger' %></td>				
 			</tr>
 		</table>
 	</div>
