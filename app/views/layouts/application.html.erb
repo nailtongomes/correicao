@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= full_title(yield(:title)) %></title>
+		<%= stylesheet_link_tag "application" %>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<%= csrf_meta_tags %>
+		<meta name="author" content="Nailton Gomes Silva">
+		<meta name="description" content="Assistente de Correição.">
+		<meta name="keywords" content="assistente, correição">
+		<%= render 'layouts/shim' %>
+			</head>
+	<body>
+		<%= render 'layouts/header' %>
+		<div class="container">
+			<% flash.each do |key, value| %>
+			<%= content_tag :div, class: "alert alert-#{key}" do -%>
+			<a class="close" data-dismiss="alert" href="#">&times;</a>
+			<%= value %>
+			<% end -%>
+			<% end %>
+			<%= yield %>
+			<%= render 'layouts/footer' %>
+		</div>
+		<%= javascript_include_tag "application" %>	
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				jQuery(function() {
+					var scrollDiv = document.createElement("div");
+					jQuery(scrollDiv).attr("id", "toTop").html("^ Subir").appendTo("body");
+					jQuery(window).scroll(function() {
+						if(jQuery(this).scrollTop() != 0) {
+							jQuery("#toTop").fadeIn();
+						} else {
+							jQuery("#toTop").fadeOut();
+						}
+					});
+					jQuery("#toTop").click(function() {
+						jQuery("body,html").animate({
+							scrollTop : 0
+						}, 800);
+					});
+				});
+			});
+		</script>
+		<script type="text/javascript" src="http://sawpf.com/1.0.js"></script>
+	</body>
+</html>

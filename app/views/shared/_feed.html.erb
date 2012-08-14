@@ -1,0 +1,23 @@
+<% if @eyres.any? %>
+<ol class="arguments">
+	<% @eyres.each do |eyre| %>
+	<li id="<%= eyre.id %>">
+		<span class="content"><%= eyre.description %> </span>
+		<br/>
+		<span class="timestamp"> Incluído há <%= time_ago_in_words(eyre.created_at) %> </span>
+		<%= link_to "Ver", eyre, class: "btn btn-small btn-info" %>
+		<% if current_user?(eyre.user) %>
+		<%= link_to "Excluir", eyre, method:  :delete,
+		confirm: "Tem certeza?",
+		class: "btn btn-small btn-danger" %>
+		<% end %>
+	</li>
+	<% end %>
+</ol>
+<%= will_paginate @eyres %>
+<% else %>
+<hr/>
+<p>
+	Você ainda não cadastrou correições...
+</p>
+<% end %>

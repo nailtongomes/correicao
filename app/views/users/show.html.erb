@@ -1,0 +1,16 @@
+<% provide(:title, @user.name) %>
+<div class="row">
+	<aside class="span4">
+		<section>
+			<h1> <%= gravatar_for @user %>
+			<%= @user.name %> </h1>
+		</section>
+		<% if current_user == @user %>
+		<section>
+			<div align="center">
+				<%= link_to "Atualizar Perfil", edit_user_path(@user), :class => "btn" %>
+			</div>
+		</section>
+		<% end %>
+	</aside>
+</div>

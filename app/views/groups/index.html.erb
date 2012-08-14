@@ -1,0 +1,27 @@
+<div class="row">
+	<div class="span4 offset4">
+		<h1>Classes</h1>
+		<hr/>
+		<% if @groups.any? %>
+		<table border="1px" cellpadding="10px">
+			<tr>
+				<th>Classe</th>
+				<th>Opções</th>
+			</tr>
+			<% @groups.each do |group| %>
+			<tr>
+				<td><%= group.name %></td>
+				<td><%= link_to 'Remover', [group], :confirm => 'Tem certeza?',
+				:method => :delete %></td>
+			</tr>
+			<% end %>
+		</table>
+		<% end %>
+		<br/>
+		<%= form_for([@group]) do |f| %>
+		<%= render 'shared/error_messages', object: f.object %>
+		<%= f.text_field :name, :placeholder => "Nome da classe" %>
+		<%= f.submit "Gravar", class: "btn btn-large btn-primary", :disable_with => "Aguarde..." %>
+		<% end %>
+	</div>
+</div>

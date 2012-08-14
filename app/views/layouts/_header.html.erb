@@ -1,0 +1,44 @@
+<header class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<%= link_to "Correição", root_path, id: "logo" %>
+			<nav>
+				<ul class="nav pull-right">
+					<li>
+						<%= link_to "INICIO", root_path %>
+					</li>
+					<% if signed_in? %>
+					<li>
+						<%= link_to "CLASSES", groups_path %>
+					</li>
+					<li id="fat-menu" class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user icon-white"></i> <%= current_user.name %> <b class="caret"></b> </a>
+						<ul class="dropdown-menu">
+							<li>
+								<%= link_to "Perfil", current_user %>
+
+							</li>
+							<li>
+								<%= link_to "Configurações", edit_user_path(current_user) %>
+							</li>
+							<li>
+								<%= link_to "Sair", signout_path, method: "delete" %>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<%= link_to "USUARIOS", users_path %>
+					</li>
+					<% else %>
+					<li>
+						<%= link_to "ENTRAR", signin_path %>
+					</li>
+					<% end %>
+					<li>
+						<%= link_to "AJUDA", help_path %>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>

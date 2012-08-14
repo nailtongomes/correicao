@@ -1,0 +1,26 @@
+<% provide(:title, 'Início') %>
+<% if signed_in? %>
+<div class="row">
+	<div class="span8 offset2">
+		<h3>Histórico de Correições</h3>
+		<%= render 'shared/feed' %>
+		<hr/>
+		<h3>Cadastrar Correição</h3><br/>
+		<%= form_for(@eyre) do |f| %>
+		<%= render 'shared/error_messages', object: f.object %>
+		<%= f.text_field :description, :placeholder => "Descrição... (Ex. Correição realizada em 13/08 - 17/08 de 2012)" %>
+		<div class="pull-right">
+			<%= f.submit "Inserir", class: "btn btn-large btn-primary", :disable_with => "Aguarde..." %>
+		</div>
+		<% end %>
+	</div>
+</div>
+<% else %>
+<div class="row">
+	<div class="span11">
+		<p>
+			Assistente para Correição.
+		</p>
+	</div>
+</div>
+<% end %>

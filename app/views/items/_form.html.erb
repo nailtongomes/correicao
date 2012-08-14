@@ -1,0 +1,14 @@
+<div class="span4 offset1">
+	<%= form_for([@eyre, @item]) do |f| %>
+	<%= render 'shared/error_messages', object: f.object %>
+	<%= f.text_field :process, :placeholder => "Número do Processo" %>
+	<%= f.collection_select :group, @groups, :name, :name %>
+	<%= f.select :status, ["EM ANDAMENTO", "SUSPENSO", "PARALIZADO"] %>
+	<%= f.text_area :obs, :placeholder => "Observação", :rows => 10 %>
+</div>
+<div class="span2 pull-right">
+	<%= f.date_select :last, :start_year => Time.now.year - 17, :end_year => Time.now.year %>
+	<%= f.submit "Gravar", class: "btn btn-large btn-primary", :disable_with => "Aguarde..." %>
+
+	<% end %>
+</div>

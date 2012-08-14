@@ -1,0 +1,32 @@
+<% provide(:title, "Exibindo") %>
+<div class="row">
+	<div class="span10 offset1">
+		<h1><%= link_to @eyre.description, @eyre %></h1>
+		<hr/>
+		<table border="1px" cellpadding="10px">
+			<tr>
+				<th>Processo</th>
+				<th>Classe</th>
+				<th>Situação</th>
+				<th>Última Mov.</th>
+				<th>Obs.</th>
+				<% if @item.status == "PARALIZADO" %><th>Dias</th><%end%>
+				<th colspan="2">Opções</th>
+			</tr>
+			<tr>
+				<td><%= @item.process %></td>
+				<td><%= @item.group %></td>
+				<td><%= @item.status %></td>
+				<td><%= @item.last.strftime("%d %m %Y") %></td>
+				<td><%= @item.obs %></td>
+				<% if @item.status == "PARALIZADO" %>
+				<th>
+				<%= (Date.parse(Time.now.to_s) - Date.parse(@item.last.to_s)).to_i %></td>
+				</th><%end%>
+				<td><%= link_to 'Editar', edit_eyre_item_path(@eyre, @item) %></td>
+				<td><%= link_to 'Remover', [@eyre, @item], :confirm => 'Tem certeza?',
+				:method => :delete %></td>
+			</tr>
+		</table>
+	</div>
+</div>
