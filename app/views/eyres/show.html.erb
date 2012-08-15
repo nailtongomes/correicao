@@ -28,6 +28,13 @@
 			</tr>
 			<% end %>
 		</table>
+		<hr/><h3>Estatísticas</h3><hr/>
+		<p>EM ORDEM: <%= Item.where("status = ? AND eyre_id = ?", "EM ORDEM", @eyre.id).count.to_s %></p>
+		<p>SUSPENSOS: <%= Item.where("status = ? AND eyre_id = ?", "SUSPENSO", @eyre.id).count.to_s %></p>
+		<p>PARALISADOS: <%= Item.where("status = ? AND eyre_id = ?", "PARALISADO", @eyre.id).count.to_s %></p>
+		<hr/>
+		<p><b>TOTAL:</b> <%= Item.where("eyre_id = ?", @eyre.id).count.to_s %></p>
+		<hr/>
 		<% end %>
 		<br/>
 		<%= link_to 'Inserir +', new_eyre_item_path(@eyre), :class => 'btn btn-primary' %>

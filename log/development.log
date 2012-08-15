@@ -29496,3 +29496,1645 @@ Served asset /bootstrap-typeahead.js - 200 OK (0ms)
 
 Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-14 19:20:24 -0300
 Served asset /bootstrap.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-14 19:42:16 -0300
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "eyres" WHERE "eyres"."user_id" = 1
+  [1m[36mEyre Load (1.0ms)[0m  [1mSELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 LIMIT 30 OFFSET 0[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY users.name ASC LIMIT 1
+  Rendered shared/_feed.html.erb (5.0ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 46ms (Views: 41.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-14 19:42:16 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-14 19:42:16 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-14 19:42:16 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-14 19:42:17 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-14 19:42:17 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-14 19:42:17 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-14 19:42:17 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-14 19:42:17 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-14 19:42:17 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-14 19:42:17 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-14 19:42:17 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-14 19:42:17 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-14 19:42:17 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-14 19:42:17 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-14 19:42:17 -0300
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-15 19:10:15 -0300
+Connecting to database specified by database.yml
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'Bx2MsDwlsrWxu6g4xVTDEg' ORDER BY users.name ASC LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'Bx2MsDwlsrWxu6g4xVTDEg' ORDER BY users.name ASC LIMIT 1
+  Rendered static_pages/home.html.erb within layouts/application (46.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'Bx2MsDwlsrWxu6g4xVTDEg' ORDER BY users.name ASC LIMIT 1[0m
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 1588ms (Views: 1329.1ms | ActiveRecord: 61.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:27 -0300
+Served asset /jquery.js - 200 OK (17ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:27 -0300
+Served asset /jquery_ujs.js - 200 OK (53ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:27 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:27 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:27 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:27 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:27 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:27 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:27 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:27 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (51ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:27 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:27 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:27 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:27 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:28 -0300
+Served asset /bootstrap.js - 304 Not Modified (33ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-08-15 19:10:30 -0300
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'Bx2MsDwlsrWxu6g4xVTDEg' ORDER BY users.name ASC LIMIT 1
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:30 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:30 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:30 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:30 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:30 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:31 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:31 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:31 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:31 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:31 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:31 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:31 -0300
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:31 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-08-15 19:10:33 -0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"woyTErEDyASYNaCzarpwRKl7sYva5Y2smMpzvLz7BxE=", "session"=>{"email"=>"nailtongomes@ig.com.br", "password"=>"[FILTERED]"}, "commit"=>"Entrar"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'nailtongomes@ig.com.br' ORDER BY users.name ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 136ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-15 19:10:33 -0300
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "eyres" WHERE "eyres"."user_id" = 1[0m
+  [1m[35mEyre Load (1.0ms)[0m  SELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 LIMIT 30 OFFSET 0
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY users.name ASC LIMIT 1[0m
+  Rendered shared/_feed.html.erb (239.0ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (277.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 669ms (Views: 308.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:34 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:34 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:34 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:34 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:34 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:34 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:34 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:34 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:34 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:34 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:34 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:34 -0300
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:34 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/eyres/2" for 127.0.0.1 at 2012-08-15 19:10:35 -0300
+Processing by EyresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1
+  [1m[36mEyre Load (1.0ms)[0m  [1mSELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 AND "eyres"."id" = 2 LIMIT 1[0m
+  [1m[35mGroup Load (1.0ms)[0m  SELECT "groups".* FROM "groups" ORDER BY groups.name asc
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE "items"."eyre_id" = 2[0m
+  [1m[35mItem Load (0.0ms)[0m  SELECT "items".* FROM "items" WHERE "items"."eyre_id" = 2 ORDER BY items.status DESC
+  Rendered eyres/show.html.erb within layouts/application (219.0ms)
+Completed 500 Internal Server Error in 246ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Items):
+    28: 			</tr>
+    29: 			<% end %>
+    30: 		</table>
+    31: 		<p>Processos EM ORDEM: <% Items.where("status = ? AND eyre_id = ?", "EM ORDEM", @eyre.id).count.to_s %></p>
+    32: 		<% end %>
+    33: 		<br/>
+    34: 		<%= link_to 'Inserir +', new_eyre_item_path(@eyre), :class => 'btn btn-primary' %>
+  app/views/eyres/show.html.erb:31:in `_app_views_eyres_show_html_erb__988237494_44820840'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (81.0ms)
+
+
+Started GET "/eyres/2" for 127.0.0.1 at 2012-08-15 19:10:54 -0300
+Processing by EyresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1[0m
+  [1m[35mEyre Load (1.0ms)[0m  SELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 AND "eyres"."id" = 2 LIMIT 1
+  [1m[36mGroup Load (0.0ms)[0m  [1mSELECT "groups".* FROM "groups" ORDER BY groups.name asc[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE "items"."eyre_id" = 2
+  [1m[36mItem Load (1.0ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."eyre_id" = 2 ORDER BY items.status DESC[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'EM ORDEM' AND eyre_id = 2)
+  Rendered eyres/show.html.erb within layouts/application (83.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 136ms (Views: 125.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:55 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:55 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:55 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:55 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:55 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:55 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:55 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:55 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:55 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:55 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:55 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:56 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:56 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:56 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:10:56 -0300
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/eyres/2" for 127.0.0.1 at 2012-08-15 19:11:13 -0300
+Processing by EyresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1[0m
+  [1m[35mEyre Load (0.0ms)[0m  SELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 AND "eyres"."id" = 2 LIMIT 1
+  [1m[36mGroup Load (1.0ms)[0m  [1mSELECT "groups".* FROM "groups" ORDER BY groups.name asc[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE "items"."eyre_id" = 2
+  [1m[36mItem Load (0.0ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."eyre_id" = 2 ORDER BY items.status DESC[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'EM ORDEM' AND eyre_id = 2)
+  Rendered eyres/show.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 60ms (Views: 50.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:11:14 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:11:14 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:11:14 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:11:14 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:11:14 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:11:14 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:11:14 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:11:14 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:11:14 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:11:14 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:11:14 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:11:14 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:11:14 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:11:14 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:11:14 -0300
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/eyres/2" for 127.0.0.1 at 2012-08-15 19:12:03 -0300
+Processing by EyresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1[0m
+  [1m[35mEyre Load (0.0ms)[0m  SELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 AND "eyres"."id" = 2 LIMIT 1
+  [1m[36mGroup Load (0.0ms)[0m  [1mSELECT "groups".* FROM "groups" ORDER BY groups.name asc[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE "items"."eyre_id" = 2
+  [1m[36mItem Load (0.0ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."eyre_id" = 2 ORDER BY items.status DESC[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'EM ORDEM' AND eyre_id = 2)
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (status = 'SUSPENSO' AND eyre_id = 2)[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'PARALISADO' AND eyre_id = 2)
+  Rendered eyres/show.html.erb within layouts/application (17.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 59ms (Views: 51.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:03 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:03 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:03 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:03 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:04 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:04 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:04 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:04 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:04 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:04 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:04 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:04 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:04 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:04 -0300
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:04 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/eyres/2" for 127.0.0.1 at 2012-08-15 19:12:34 -0300
+Processing by EyresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1[0m
+  [1m[35mEyre Load (1.0ms)[0m  SELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 AND "eyres"."id" = 2 LIMIT 1
+  [1m[36mGroup Load (0.0ms)[0m  [1mSELECT "groups".* FROM "groups" ORDER BY groups.name asc[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE "items"."eyre_id" = 2
+  [1m[36mItem Load (0.0ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."eyre_id" = 2 ORDER BY items.status DESC[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'EM ORDEM' AND eyre_id = 2)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (status = 'SUSPENSO' AND eyre_id = 2)[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'PARALISADO' AND eyre_id = 2)
+  Rendered eyres/show.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 51ms (Views: 44.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:34 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:34 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:34 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:35 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:35 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:35 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:35 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:35 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:35 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:35 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:35 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:35 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:35 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:35 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:35 -0300
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/eyres/2" for 127.0.0.1 at 2012-08-15 19:12:43 -0300
+Processing by EyresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1[0m
+  [1m[35mEyre Load (0.0ms)[0m  SELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 AND "eyres"."id" = 2 LIMIT 1
+  [1m[36mGroup Load (1.0ms)[0m  [1mSELECT "groups".* FROM "groups" ORDER BY groups.name asc[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE "items"."eyre_id" = 2
+  [1m[36mItem Load (1.0ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."eyre_id" = 2 ORDER BY items.status DESC[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'EM ORDEM' AND eyre_id = 2)
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (status = 'SUSPENSO' AND eyre_id = 2)[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'PARALISADO' AND eyre_id = 2)
+  Rendered eyres/show.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 109ms (Views: 74.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:43 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:43 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:43 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:43 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:44 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:44 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:44 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:44 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:44 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:44 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:44 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:44 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:44 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:44 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:44 -0300
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/eyres/2" for 127.0.0.1 at 2012-08-15 19:12:50 -0300
+Processing by EyresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1[0m
+  [1m[35mEyre Load (1.0ms)[0m  SELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 AND "eyres"."id" = 2 LIMIT 1
+  [1m[36mGroup Load (1.0ms)[0m  [1mSELECT "groups".* FROM "groups" ORDER BY groups.name asc[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE "items"."eyre_id" = 2
+  [1m[36mItem Load (0.0ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."eyre_id" = 2 ORDER BY items.status DESC[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'EM ORDEM' AND eyre_id = 2)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (status = 'SUSPENSO' AND eyre_id = 2)[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'PARALISADO' AND eyre_id = 2)
+  Rendered eyres/show.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 53ms (Views: 48.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:50 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:50 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:50 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:50 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:50 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:50 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:50 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:50 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:50 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:51 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:51 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:51 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:51 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:51 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:12:51 -0300
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/eyres/2" for 127.0.0.1 at 2012-08-15 19:13:46 -0300
+Processing by EyresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1[0m
+  [1m[35mEyre Load (0.0ms)[0m  SELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 AND "eyres"."id" = 2 LIMIT 1
+  [1m[36mGroup Load (1.0ms)[0m  [1mSELECT "groups".* FROM "groups" ORDER BY groups.name asc[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE "items"."eyre_id" = 2
+  [1m[36mItem Load (0.0ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."eyre_id" = 2 ORDER BY items.status DESC[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'EM ORDEM' AND eyre_id = 2)
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (status = 'SUSPENSO' AND eyre_id = 2)[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'PARALISADO' AND eyre_id = 2)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (eyre_id = 2)[0m
+  Rendered eyres/show.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 48ms (Views: 41.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:13:47 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:13:47 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:13:47 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:13:47 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:13:47 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:13:47 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:13:47 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:13:47 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:13:47 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:13:47 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:13:47 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:13:47 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:13:47 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:13:47 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:13:47 -0300
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/eyres/2" for 127.0.0.1 at 2012-08-15 19:14:00 -0300
+Processing by EyresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1
+  [1m[36mEyre Load (1.0ms)[0m  [1mSELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 AND "eyres"."id" = 2 LIMIT 1[0m
+  [1m[35mGroup Load (1.0ms)[0m  SELECT "groups".* FROM "groups" ORDER BY groups.name asc
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE "items"."eyre_id" = 2[0m
+  [1m[35mItem Load (0.0ms)[0m  SELECT "items".* FROM "items" WHERE "items"."eyre_id" = 2 ORDER BY items.status DESC
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (status = 'EM ORDEM' AND eyre_id = 2)[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'SUSPENSO' AND eyre_id = 2)
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (status = 'PARALISADO' AND eyre_id = 2)[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (eyre_id = 2)
+  Rendered eyres/show.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 71ms (Views: 59.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:00 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:00 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:00 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:00 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:00 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:00 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:00 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:00 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:00 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:00 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:01 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:01 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:01 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:01 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:01 -0300
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/eyres/2" for 127.0.0.1 at 2012-08-15 19:14:45 -0300
+Processing by EyresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1[0m
+  [1m[35mEyre Load (0.0ms)[0m  SELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 AND "eyres"."id" = 2 LIMIT 1
+  [1m[36mGroup Load (1.0ms)[0m  [1mSELECT "groups".* FROM "groups" ORDER BY groups.name asc[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE "items"."eyre_id" = 2
+  [1m[36mItem Load (0.0ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."eyre_id" = 2 ORDER BY items.status DESC[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'EM ORDEM' AND eyre_id = 2)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (status = 'SUSPENSO' AND eyre_id = 2)[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'PARALISADO' AND eyre_id = 2)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (eyre_id = 2)[0m
+  Rendered eyres/show.html.erb within layouts/application (17.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 51.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:45 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:45 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:46 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:46 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:46 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:46 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:46 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:46 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:46 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:46 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:46 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:46 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:46 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:46 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:14:46 -0300
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/eyres/2" for 127.0.0.1 at 2012-08-15 19:15:58 -0300
+Processing by EyresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1
+  [1m[36mEyre Load (2.0ms)[0m  [1mSELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 AND "eyres"."id" = 2 LIMIT 1[0m
+  [1m[35mGroup Load (1.0ms)[0m  SELECT "groups".* FROM "groups" ORDER BY groups.name asc
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE "items"."eyre_id" = 2[0m
+  [1m[35mItem Load (0.0ms)[0m  SELECT "items".* FROM "items" WHERE "items"."eyre_id" = 2 ORDER BY items.status DESC
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (status = 'EM ORDEM' AND eyre_id = 2)[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'SUSPENSO' AND eyre_id = 2)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (status = 'PARALISADO' AND eyre_id = 2)[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (eyre_id = 2)
+  Rendered eyres/show.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 57ms (Views: 44.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:15:58 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:15:58 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:15:58 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:15:58 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:15:58 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:15:58 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:15:58 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:15:58 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:15:58 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:15:58 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:15:58 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:15:58 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:15:58 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:15:59 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:15:59 -0300
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/eyres/2/items/14/edit" for 127.0.0.1 at 2012-08-15 19:16:09 -0300
+Processing by ItemsController#edit as HTML
+  Parameters: {"eyre_id"=>"2", "id"=>"14"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1[0m
+  [1m[35mEyre Load (0.0ms)[0m  SELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 AND "eyres"."id" = 2 LIMIT 1
+  [1m[36mGroup Load (1.0ms)[0m  [1mSELECT "groups".* FROM "groups" ORDER BY groups.name asc[0m
+  [1m[35mItem Load (1.0ms)[0m  SELECT "items".* FROM "items" WHERE "items"."eyre_id" = 2 AND "items"."id" = ? ORDER BY items.status DESC LIMIT 1  [["id", "14"]]
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered items/_form.html.erb (10.0ms)
+  Rendered items/edit.html.erb within layouts/application (32.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 72ms (Views: 65.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:09 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:09 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:10 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:10 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:10 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:10 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:10 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:10 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:10 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:10 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:10 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:10 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:10 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:10 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:10 -0300
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started PUT "/eyres/2/items/14" for 127.0.0.1 at 2012-08-15 19:16:13 -0300
+Processing by ItemsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"woyTErEDyASYNaCzarpwRKl7sYva5Y2smMpzvLz7BxE=", "item"=>{"process"=>"2", "group"=>"Auto de Prisão em Flagrante", "status"=>"EM ORDEM", "obs"=>"", "last(3i)"=>"14", "last(2i)"=>"8", "last(1i)"=>"2012"}, "commit"=>"Gravar", "eyre_id"=>"2", "id"=>"14"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1[0m
+  [1m[35mEyre Load (0.0ms)[0m  SELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 AND "eyres"."id" = 2 LIMIT 1
+  [1m[36mItem Load (0.0ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."eyre_id" = 2 AND "items"."id" = ? ORDER BY items.status DESC LIMIT 1[0m  [["id", "14"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mItem Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "items" WHERE ("items"."process" = '2' AND "items"."id" != 14) LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  UPDATE "items" SET "status" = 'EM ORDEM', "updated_at" = '2012-08-15 22:16:13.473128' WHERE "items"."id" = 14
+  [1m[36m (218.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/eyres/2
+Completed 302 Found in 424ms (ActiveRecord: 220.0ms)
+
+
+Started GET "/eyres/2" for 127.0.0.1 at 2012-08-15 19:16:13 -0300
+Processing by EyresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1
+  [1m[36mEyre Load (1.0ms)[0m  [1mSELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 AND "eyres"."id" = 2 LIMIT 1[0m
+  [1m[35mGroup Load (1.0ms)[0m  SELECT "groups".* FROM "groups" ORDER BY groups.name asc
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE "items"."eyre_id" = 2[0m
+  [1m[35mItem Load (0.0ms)[0m  SELECT "items".* FROM "items" WHERE "items"."eyre_id" = 2 ORDER BY items.status DESC
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (status = 'EM ORDEM' AND eyre_id = 2)[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'SUSPENSO' AND eyre_id = 2)
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (status = 'PARALISADO' AND eyre_id = 2)[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (eyre_id = 2)
+  Rendered eyres/show.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 46ms (Views: 40.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:13 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:13 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:14 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:14 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:14 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:14 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:14 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:14 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:14 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:14 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:14 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:14 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:14 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:14 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:14 -0300
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-15 19:16:46 -0300
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "eyres" WHERE "eyres"."user_id" = 1
+  [1m[36mEyre Load (0.0ms)[0m  [1mSELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 LIMIT 30 OFFSET 0[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY users.name ASC LIMIT 1
+  Rendered shared/_feed.html.erb (8.0ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (19.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 61ms (Views: 55.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:47 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:47 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:47 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:47 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:47 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:47 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:47 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:47 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:47 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:47 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:47 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:47 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:47 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:47 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:16:47 -0300
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-15 19:17:13 -0300
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "eyres" WHERE "eyres"."user_id" = 1
+  [1m[36mEyre Load (0.0ms)[0m  [1mSELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 LIMIT 30 OFFSET 0[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY users.name ASC LIMIT 1
+  Rendered shared/_feed.html.erb (6.0ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 49ms (Views: 44.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:17:13 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:17:13 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:17:13 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:17:14 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:17:14 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:17:14 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:17:14 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:17:14 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:17:14 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:17:14 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:17:14 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:17:14 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:17:14 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:17:14 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:17:14 -0300
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-15 19:18:10 -0300
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "eyres" WHERE "eyres"."user_id" = 1
+  [1m[36mEyre Load (1.0ms)[0m  [1mSELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 LIMIT 30 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (eyre_id = 2)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY users.name ASC LIMIT 1[0m
+  Rendered shared/_feed.html.erb (8.0ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (17.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 53ms (Views: 47.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:10 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:10 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:10 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:11 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:11 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:11 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:11 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:11 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:11 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:11 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:11 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:11 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:11 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:11 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:11 -0300
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-15 19:18:33 -0300
+Processing by StaticPagesController#home as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "eyres" WHERE "eyres"."user_id" = 1[0m
+  [1m[35mEyre Load (1.0ms)[0m  SELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 LIMIT 30 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (eyre_id = 2)[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY users.name ASC LIMIT 1
+  Rendered shared/_feed.html.erb (7.0ms)
+  Rendered shared/_error_messages.html.erb (0.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 48ms (Views: 43.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:33 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:33 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:33 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:33 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:33 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:33 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:33 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:33 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:33 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:33 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:34 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:34 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:34 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:34 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:34 -0300
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/eyres/2" for 127.0.0.1 at 2012-08-15 19:18:45 -0300
+Processing by EyresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" = 'jqjB9V2vGU5H6maCECiXWg' ORDER BY users.name ASC LIMIT 1[0m
+  [1m[35mEyre Load (0.0ms)[0m  SELECT "eyres".* FROM "eyres" WHERE "eyres"."user_id" = 1 AND "eyres"."id" = 2 LIMIT 1
+  [1m[36mGroup Load (1.0ms)[0m  [1mSELECT "groups".* FROM "groups" ORDER BY groups.name asc[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE "items"."eyre_id" = 2
+  [1m[36mItem Load (0.0ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."eyre_id" = 2 ORDER BY items.status DESC[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'EM ORDEM' AND eyre_id = 2)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (status = 'SUSPENSO' AND eyre_id = 2)[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "items" WHERE (status = 'PARALISADO' AND eyre_id = 2)
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "items" WHERE (eyre_id = 2)[0m
+  Rendered eyres/show.html.erb within layouts/application (18.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 65ms (Views: 51.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:45 -0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:45 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:45 -0300
+Served asset /bootstrap-transition.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:45 -0300
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:45 -0300
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:45 -0300
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:45 -0300
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:45 -0300
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:45 -0300
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:45 -0300
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:45 -0300
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:45 -0300
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:45 -0300
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:45 -0300
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-08-15 19:18:46 -0300
+Served asset /bootstrap.js - 304 Not Modified (3ms)
